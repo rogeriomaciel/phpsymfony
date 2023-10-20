@@ -10,26 +10,26 @@ if (in_array(PHP_SAPI, ['cli', 'phpdbg'], true)) {
 }
 
 require dirname(__DIR__, 3).'/vendor/autoload.php';
-(require __DIR__.'/App_KernelDevDebugContainer.php')->set(\ContainerKnyfzen\App_KernelDevDebugContainer::class, null);
-require __DIR__.'/ContainerKnyfzen/getSession_FactoryService.php';
-require __DIR__.'/ContainerKnyfzen/getServicesResetterService.php';
-require __DIR__.'/ContainerKnyfzen/getSecrets_VaultService.php';
-require __DIR__.'/ContainerKnyfzen/getRouting_LoaderService.php';
-require __DIR__.'/ContainerKnyfzen/getErrorControllerService.php';
-require __DIR__.'/ContainerKnyfzen/getContainer_EnvVarProcessorsLocatorService.php';
-require __DIR__.'/ContainerKnyfzen/getContainer_EnvVarProcessorService.php';
-require __DIR__.'/ContainerKnyfzen/getCache_SystemClearerService.php';
-require __DIR__.'/ContainerKnyfzen/getCache_SystemService.php';
-require __DIR__.'/ContainerKnyfzen/getCache_GlobalClearerService.php';
-require __DIR__.'/ContainerKnyfzen/getCache_AppClearerService.php';
-require __DIR__.'/ContainerKnyfzen/getCache_AppService.php';
-require __DIR__.'/ContainerKnyfzen/getArgumentResolver_ServiceService.php';
-require __DIR__.'/ContainerKnyfzen/getTemplateControllerService.php';
-require __DIR__.'/ContainerKnyfzen/getRedirectControllerService.php';
-require __DIR__.'/ContainerKnyfzen/get_ServiceLocator_KfbR3DYService.php';
-require __DIR__.'/ContainerKnyfzen/get_Container_Private_SessionService.php';
-require __DIR__.'/ContainerKnyfzen/get_Container_Private_FilesystemService.php';
-require __DIR__.'/ContainerKnyfzen/get_Container_Private_CacheClearerService.php';
+(require __DIR__.'/App_KernelDevDebugContainer.php')->set(\ContainerAYyMwYE\App_KernelDevDebugContainer::class, null);
+require __DIR__.'/ContainerAYyMwYE/getSession_FactoryService.php';
+require __DIR__.'/ContainerAYyMwYE/getServicesResetterService.php';
+require __DIR__.'/ContainerAYyMwYE/getSecrets_VaultService.php';
+require __DIR__.'/ContainerAYyMwYE/getRouting_LoaderService.php';
+require __DIR__.'/ContainerAYyMwYE/getErrorControllerService.php';
+require __DIR__.'/ContainerAYyMwYE/getContainer_EnvVarProcessorsLocatorService.php';
+require __DIR__.'/ContainerAYyMwYE/getContainer_EnvVarProcessorService.php';
+require __DIR__.'/ContainerAYyMwYE/getCache_SystemClearerService.php';
+require __DIR__.'/ContainerAYyMwYE/getCache_SystemService.php';
+require __DIR__.'/ContainerAYyMwYE/getCache_GlobalClearerService.php';
+require __DIR__.'/ContainerAYyMwYE/getCache_AppClearerService.php';
+require __DIR__.'/ContainerAYyMwYE/getCache_AppService.php';
+require __DIR__.'/ContainerAYyMwYE/getArgumentResolver_ServiceService.php';
+require __DIR__.'/ContainerAYyMwYE/getTemplateControllerService.php';
+require __DIR__.'/ContainerAYyMwYE/getRedirectControllerService.php';
+require __DIR__.'/ContainerAYyMwYE/get_ServiceLocator_KfbR3DYService.php';
+require __DIR__.'/ContainerAYyMwYE/get_Container_Private_SessionService.php';
+require __DIR__.'/ContainerAYyMwYE/get_Container_Private_FilesystemService.php';
+require __DIR__.'/ContainerAYyMwYE/get_Container_Private_CacheClearerService.php';
 
 $classes = [];
 $classes[] = 'Symfony\Bundle\FrameworkBundle\FrameworkBundle';
